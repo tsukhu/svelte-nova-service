@@ -1,0 +1,7 @@
+{
+    "name": "Start on Heroku: svelte hypernova service",
+    "description": "Hypernova svelte service",
+    "repository": "https://github.com/tsukhu/svelte-nova-service.git",
+    "keywords": ["node", "nova", "heroku"],
+    "image": "heroku/nodejs"
+  }
