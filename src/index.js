@@ -8,8 +8,7 @@ import Example from './components/Example.svelte'
 hypernova({
   devMode: process.env.NODE_ENV !== 'production',
   getComponent (name) {
-    console.log(`CALLED : ${name}` );
-    if (name === 'Example') {
+    if (name === 'SvelteNovaMFE') {
       return renderSvelte(name, Example)
     }
 

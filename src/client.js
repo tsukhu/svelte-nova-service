@@ -3,7 +3,7 @@ import { mountComponent, load, loadById } from 'hypernova-svelte'
 import Example from './components/Example.svelte'
 
 const render = (name, { node, data }) => {
-  if (name === 'Example') {
+  if (name === 'SvelteNovaMFE') {
     return mountComponent(Example, node, data)
   }
 }
@@ -18,4 +18,4 @@ document.addEventListener('NovaMount', ({ detail }) => {
   }
 })
 
-load('Example').forEach(render.bind(null, 'Example'))
+load('SvelteNovaMFE').forEach(render.bind(null, 'SvelteNovaMFE'))
